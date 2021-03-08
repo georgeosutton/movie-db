@@ -116,12 +116,13 @@ header {
     .genres {
       margin: 1rem 0;
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       li {
         height: fit-content;
         border: 1px solid lightgray;
         padding: 0 0.75rem;
-        margin: 0 0.5rem 0 0;
+        margin: 0.5rem 0.5rem 0 0;
       }
     }
   }
